@@ -1,0 +1,55 @@
+html {
+  font-size: 14px;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 10px;
+  padding: 10px;
+}
+
+
+footer {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+.boton {
+  display: inline-block;
+  background-color: #990000;
+  color: white; 
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-top: 1%;
+}
+.Index{
+  background-image: url(imagenes/FondoIndex.jpg);
+}
+.Sala1{
+  background-image: url(imagenes/FondoSala1.png);
+}
+.Sala2{
+  background-image: url(imagenes/FondoSala2.png);
+}
+.Sala3{
+  background-image: url(imagenes/FondoSala3.png);
+}
+.Sala4{
+  background-image: url(imagenes/FondoSala4.png);
+}
+.Tutorial{
+  background-image: url(imagenes/FondoTutorial.jfif);
+}
+.Ganaste{
+  background-image: url(imagenes/Ganaste.jfif);
+}

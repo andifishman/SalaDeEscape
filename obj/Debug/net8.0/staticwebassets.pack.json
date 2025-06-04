@@ -1,0 +1,113 @@
+{
+  "Files": [
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\imagenes\\FondoIndex.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\FondoIndex.jpg"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\imagenes\\FondoSala1.png",
+      "PackagePath": "staticwebassets\\imagenes\\FondoSala1.png"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\imagenes\\FondoSala2.png",
+      "PackagePath": "staticwebassets\\imagenes\\FondoSala2.png"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\imagenes\\FondoSala3.png",
+      "PackagePath": "staticwebassets\\imagenes\\FondoSala3.png"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\imagenes\\FondoSala4.png",
+      "PackagePath": "staticwebassets\\imagenes\\FondoSala4.png"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\imagenes\\FondoTutorial.jfif",
+      "PackagePath": "staticwebassets\\imagenes\\FondoTutorial.jfif"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\imagenes\\Ganaste.jfif.jfif",
+      "PackagePath": "staticwebassets\\imagenes\\Ganaste.jfif.jfif"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\imagenes\\Thumbs.db",
+      "PackagePath": "staticwebassets\\imagenes\\Thumbs.db"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "Z:\\.Prog 2025\\SalaDeEscape_Hospital\\SALADEESCAPE_HOSPITAL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SALADEESCAPE_HOSPITAL.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SALADEESCAPE_HOSPITAL.props",
+      "PackagePath": "build\\SALADEESCAPE_HOSPITAL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SALADEESCAPE_HOSPITAL.props",
+      "PackagePath": "buildMultiTargeting\\SALADEESCAPE_HOSPITAL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SALADEESCAPE_HOSPITAL.props",
+      "PackagePath": "buildTransitive\\SALADEESCAPE_HOSPITAL.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
