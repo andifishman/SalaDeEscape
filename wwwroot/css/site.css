@@ -1,3 +1,6 @@
+*{
+  background-color: black;
+}
 html {
   font-size: 14px;
   min-height: 100%;
@@ -9,10 +12,7 @@ html {
   }
 }
 
-body {
-  margin: 10px;
-  padding: 10px;
-}
+
 
 
 footer {
@@ -21,7 +21,7 @@ footer {
   background-color: #f8f9fa;
   border-top: 1px solid #e9ecef;
 }
-.boton {
+.boton, .boton1 {
   display: inline-block;
   background-color: #990000;
   color: white; 
@@ -32,25 +32,42 @@ footer {
   font-size: 12px;
   margin-top: 1%;
 }
-.Index{
-  background-image: url(imagenes/FondoIndex.jpg);
-  
+
+section.Index{
+  background-image: url(/imagenes/FondoIndex.jpg);
+  height: 1000px;
+  width: 100%;
+}
+.Index h2 {
+  padding-top: 5%;
+  text-align: center;
+  color: red;
+}
+.Index .boton1{
+  margin-left: 38%;
+}
+.Index .boton2{
+  margin-left: 7%;
 }
 .Sala1{
-  background-image: url(imagenes/FondoSala1.png);
+  background-image: url(/imagenes/FondoSala1.png);
+  height: 1000px;
+  width: 100%;
 }
 .Sala2{
-  background-image: url(imagenes/FondoSala2.png);
+  background-image: url(/imagenes/FondoSala2.png);
+  height: 1000px;
+  width: auto 100%;
 }
 .Sala3{
-  background-image: url(imagenes/FondoSala3.png);
+  background-image: url(/imagenes/FondoSala3.png);
 }
 .Sala4{
-  background-image: url(imagenes/FondoSala4.png);
+  background-image: url(/imagenes/FondoSala4.png);
 }
 .Tutorial{
-  background-image: url(imagenes/FondoTutorial.jfif);
+  background-image: url(/imagenes/FondoTutorial.jfif);
 }
 .Ganaste{
-  background-image: url(imagenes/Ganaste.jfif);
+  background-image: url(/imagenes/Ganaste.jfif);
 }
