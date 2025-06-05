@@ -26,4 +26,26 @@ public class Salas{
         }
         return palabra;
     }
+    public void llaveTrue()
+    {
+        llaveSala1=true;
+    }
+    public void luzTrue()
+    {
+        luzSala2=true;
+    }
+    public void num(int numeroNuevo){
+        numIngresado=numeroNuevo;
+    }
+     public void palabra(string palabraNueva){
+        numIngresado=palabraNueva;
+    }
+     public string mismaPalabra(){
+        string palabra= "Sala4";
+        if(palabraIngresada==palabraReal)
+        {
+            palabra="Ganar";
+        }
+        return palabra;
+    }
 }
