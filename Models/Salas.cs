@@ -17,6 +17,7 @@ public class Salas{
         luzSala2=false;
         numReal=962;
         palabraReal="escape";
+        palabraIngresada="";
     }
     public string mismoNum(){
         string palabra= "Sala3";
@@ -38,14 +39,15 @@ public class Salas{
         numIngresado=numeroNuevo;
     }
      public void palabra(string palabraNueva){
-        numIngresado=palabraNueva;
+        palabraIngresada=palabraNueva;
     }
-     public string mismaPalabra(){
-        string palabra= "Sala4";
+     public string mismaPalabra()
+     {
+        string palabra = "Sala4";
         if(palabraIngresada==palabraReal)
         {
-            palabra="Ganar";
+            palabra = "Ganar";
         }
         return palabra;
     }
-}
+}   

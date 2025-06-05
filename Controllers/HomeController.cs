@@ -45,7 +45,7 @@ public class HomeController : Controller
     public IActionResult Codigo(int num)
     {
         Salas sala =Objeto.StringToObject<Salas>(HttpContext.Session.GetString("sala"));
-        sala.num();
+        sala.num(num);
         string palabra=sala.mismoNum();
         HttpContext.Session.SetString("sala", Objeto.ObjectToString(sala));
         return View(palabra);
@@ -53,10 +53,10 @@ public class HomeController : Controller
     public IActionResult Sala4(string palabra)
     {
         Salas sala =Objeto.StringToObject<Salas>(HttpContext.Session.GetString("sala"));
-        sala.palabra();
+        sala.palabra(palabra);
         string palabraSala4=sala.mismaPalabra();
         HttpContext.Session.SetString("sala", Objeto.ObjectToString(sala));
-        return View(palabra);
+        return View(palabraSala4);
     }
     
 }
