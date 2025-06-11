@@ -1,0 +1,177 @@
+*{
+background-color: black;
+}
+
+html {
+  font-size: 14px;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body{
+  
+  margin: 0%;
+  padding: 0%;
+}
+
+
+footer {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  border-top: 1px solid #e9ecef;
+  text-align: center;
+  width: 100%;
+}
+.boton, .boton1, .botonTutorial {
+  display: inline-block;
+  background-color: #990000;
+  color: white; 
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-top: 1%;
+}
+
+section.Index{
+  background-image: url(/imagenes/FondoIndex.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;  
+  min-height: 100vh;             
+  margin: 0; 
+ 
+}
+.Index h2 {
+  padding-top: 5%;
+  text-align: center;
+  color: red;
+  text-decoration: underline;
+  font-size: 35px;
+  background-color: rgba(0,0,0,0.4);
+}
+.Index h4
+{
+  padding-top: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  color: red;
+  font-size: 120%;
+  background-color: rgba(0,0,0,0.5);
+}
+.Index .boton{
+  margin-left: 38%;
+}
+.Index .boton1{
+  margin-left: 7%;
+}
+
+.Sala1{
+  background-image: url(/imagenes/FondoSala1.png);
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+}
+.Sala1 h3, .Sala2 h3
+{
+  margin-left: 25%;
+  margin-right: 25%;
+  color: white;
+  font-size: 200%;
+  background-color: rgba(255, 0, 0, 0.4);
+  text-align: center;
+}
+ .botonLlave {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  font-size: 12px;
+  margin-top: 1%;
+  margin-left: 65.8%;
+  margin-top: 9.5%;
+  background-color:rgba(0, 0, 0, 0);
+  
+}
+
+.Sala2{
+  background-image: url(/imagenes/FondoSala2.png);
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+}
+.botonLuz {
+  display: inline-block;
+  border: 10px solid white;
+  padding: 60px 30px;
+  text-decoration: none;
+  border: none;
+  font-size: 12px;
+  margin-top: 1%;
+  margin-left: 65%;
+  margin-top: 18%;
+}
+
+.Sala3{
+  background-image: url(/imagenes/FondoSala3.png);
+  height: 1000px;
+  width:  100%;
+  background-size: cover;
+}
+input{
+  background-color: white;
+}
+form{
+  background-color: white;
+}
+.Sala4{
+  background-image: url(/imagenes/FondoSala4.png);
+  height: 1000px;
+  width:  100%;
+}
+.Tutorial{
+  background-image: url(/imagenes/FondoTutorial.jfif);
+  height: 100%;
+  width: 100%;
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;  
+  min-height: 100vh;             
+  margin: 0; 
+ 
+}
+.Tutorial h2
+{
+ margin-top: 10%;
+ margin-left: 25%;
+ margin-right: 25%;
+ padding: 1%;
+  text-align: center;
+  color: white;
+  font-size: 200%;
+  background-color: rgba(255, 0, 0, 0.4);
+}
+.Ganaste{
+  background-image: url(/imagenes/Ganaste.jfif);
+  height: 1000px;
+  width: 100%;
+}
+.botonTutorial
+{
+  margin-top: 5%;
+  margin-left: 43%;
+  font-size: 20px;
+  margin-top: 10%;
+}
+
