@@ -9,7 +9,10 @@ html {
     font-size: 16px;
   }
 }
-
+*{
+  margin: 0;
+  padding: 0;
+}
 
 
 
@@ -60,12 +63,12 @@ section.Index{
 }
 
 .Sala1{
-  background-image: url(/imagenes/FondoSala1.png);
+  background-image: url(/imagenes/habitacion.jfif);
   background-size: cover;
   height: 1000px;
   width: 100%;
 }
-.Sala1 h3, .Sala2 h3
+.Sala1 h3, .Sala2 h3, .Sala3 h3
 {
   margin-left: 25%;
   margin-right: 25%;
@@ -73,7 +76,13 @@ section.Index{
   font-size: 200%;
   background-color: rgba(255, 0, 0, 0.4);
   text-align: center;
+ border: 5px solid whitesmoke;
 }
+.Sala3 form
+{margin-left: 42%;
+margin-top: 5%;
+}
+
  .botonLlave {
   display: inline-block;
   padding: 10px 20px;
@@ -81,31 +90,32 @@ section.Index{
   border: none;
   font-size: 12px;
   margin-top: 1%;
-  margin-left: 65.8%;
-  margin-top: 9.5%;
-  
+  margin-left: 53.3%;
+  margin-top: 26%;
+ 
+ 
 }
 
 .Sala2{
-  background-image: url(/imagenes/FondoSala2.png);
+  background-image: url(/imagenes/Pasillo.png);
   background-size: cover;
   height: 1000px;
   width: 100%;
 }
 .botonLuz {
   display: inline-block;
-  border: 10px solid white;
-  padding: 60px 30px;
+
+  padding: 25px 25px;
   text-decoration: none;
   border: none;
   font-size: 12px;
   margin-top: 1%;
-  margin-left: 65%;
-  margin-top: 18%;
+  margin-left: 58.5%;
+  margin-top: 25%;
 }
 
 .Sala3{
-  background-image: url(/imagenes/FondoSala3.png);
+  background-image: url(/imagenes/PasilloConLuz.jpg);
   height: 1000px;
   width:  100%;
   background-size: cover;
@@ -119,10 +129,12 @@ section.Index{
   background-image: url(/imagenes/FondoTutorial.jfif);
   height: 1000px;
   width: 100%;
+  background-position-x: right;
+
 }
 .Tutorial h2
 {
- margin-top: 10%;
+ margin-top: 13%;
  margin-left: 25%;
  margin-right: 25%;
  padding: 1%;
