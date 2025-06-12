@@ -15,7 +15,7 @@ public class Salas{
     public Salas(){
         llaveSala1=false;
         luzSala2=false;
-        numReal=962;
+        numReal=932;
         palabraReal="escape";
         palabraIngresada="";
     }

@@ -17,9 +17,10 @@ html {
 
 
 footer {
+  text-align: center;
   margin-top: 10px;
   padding: 10px;
-  background-color: #f8f9fa;
+  background-color: #3d3d3d;
   border-top: 1px solid #e9ecef;
 }
 .boton, .boton1, .botonTutorial {
@@ -68,7 +69,7 @@ section.Index{
   height: 1000px;
   width: 100%;
 }
-.Sala1 h3, .Sala2 h3, .Sala3 h3
+.Sala1 h3, .Sala2 h3, .Sala3 h3, .Sala4 h3
 {
   margin-left: 25%;
   margin-right: 25%;
@@ -78,6 +79,19 @@ section.Index{
   text-align: center;
  border: 5px solid whitesmoke;
 }
+.Ganaste h3{
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 20px;
+ 
+  margin-bottom: 1.3%;
+  color: white;
+  font-size: 200%;
+  background-color: rgba(255, 0, 0, 0.4);
+  text-align: center;
+ border: 2px solid whitesmoke;
+
+}
 .Sala3 form
 {margin-left: 42%;
 margin-top: 5%;
@@ -85,13 +99,14 @@ margin-top: 5%;
 
  .botonLlave {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 20px 50px;
   text-decoration: none;
   border: none;
   font-size: 12px;
   margin-top: 1%;
-  margin-left: 53.3%;
-  margin-top: 26%;
+  margin-left: 52%;
+  margin-top: 25.7%;
+  
  
  
 }
@@ -104,14 +119,15 @@ margin-top: 5%;
 }
 .botonLuz {
   display: inline-block;
-
-  padding: 25px 25px;
+  
+  padding: 50px 25px;
   text-decoration: none;
   border: none;
   font-size: 12px;
-  margin-top: 1%;
+  margin-top: 2%;
   margin-left: 58.5%;
   margin-top: 25%;
+  border: 5px solid green;
 }
 
 .Sala3{
@@ -121,9 +137,20 @@ margin-top: 5%;
   background-size: cover;
 }
 .Sala4{
-  background-image: url(/imagenes/FondoSala4.png);
+  background-image: url(/imagenes/Ascensor.png);
+  background-size: cover;
   height: 1000px;
   width:  100%;
+}
+.Sala4 form{
+  margin-left: 40%;
+  padding-top: 7%;
+}
+
+.Sala4 img{
+margin-left: 40%;
+margin-top: 4%;
+
 }
 .Tutorial{
   background-image: url(/imagenes/FondoTutorial.jfif);
@@ -144,7 +171,9 @@ margin-top: 5%;
   background-color: rgba(255, 0, 0, 0.4);
 }
 .Ganaste{
-  background-image: url(/imagenes/Ganaste.jfif);
+  background-image: url(/imagenes/Ganaste.png);
+  background-position: center;
+  background-size: cover;
   height: 1000px;
   width: 100%;
 }
