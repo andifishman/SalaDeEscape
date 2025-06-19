@@ -12,12 +12,19 @@ public class Salas{
     public string palabraReal;
     [JsonProperty]
     public string palabraIngresada;
+    
+    [JsonProperty]
+    public string libertad;
+        [JsonProperty]
+    public string libertadIngresada;
     public Salas(){
         llaveSala1=false;
         luzSala2=false;
         numReal=932;
         palabraReal="escape";
         palabraIngresada="";
+        libertad = "libertad";
+        libertadIngresada = "";
     }
     public string mismoNum(){
         string palabra= "Sala3";
@@ -45,6 +52,18 @@ public class Salas{
      {
         string palabra = "Sala4";
         if(palabraIngresada==palabraReal)
+        {
+            palabra = "Sala5";
+        }
+        return palabra;
+    }
+    public void palabra2(string palabraNueva){
+        libertadIngresada=palabraNueva;
+    }
+    public string mismaPalabra2()
+     {
+        string palabra = "Sala5parte2";
+        if(libertadIngresada==libertad)
         {
             palabra = "Ganar";
         }

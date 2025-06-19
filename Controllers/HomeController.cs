@@ -58,5 +58,16 @@ public class HomeController : Controller
         HttpContext.Session.SetString("sala", Objeto.ObjectToString(sala));
         return View(palabraSala4);
     }
-    
+    public IActionResult Sala5(string palabra)
+    {
+        Salas sala =Objeto.StringToObject<Salas>(HttpContext.Session.GetString("sala"));
+        sala.palabra2(palabra);
+        string palabraSala5=sala.mismaPalabra2();
+        HttpContext.Session.SetString("sala", Objeto.ObjectToString(sala));
+        return View(palabraSala5);
+    }
+    public IActionResult Sala()
+    {
+        return View ("Sala5parte2");
+    }
 }
