@@ -25,6 +25,7 @@ public class HomeController : Controller
     public IActionResult Jugar()
     {
         Salas sala = new Salas();
+        HttpContext.Session.SetString("inicioCronometro", DateTime.Now.ToString("o"));
         HttpContext.Session.SetString("sala", Objeto.ObjectToString(sala));
         return View("Sala1");
     }
@@ -64,6 +65,19 @@ public class HomeController : Controller
         sala.palabra2(palabra);
         string palabraSala5=sala.mismaPalabra2();
         HttpContext.Session.SetString("sala", Objeto.ObjectToString(sala));
+        var inicioString = HttpContext.Session.GetString("inicioCronometro");
+        if (!string.IsNullOrEmpty(inicioString) && DateTime.TryParse(inicioString, null, System.Globalization.DateTimeStyles.RoundtripKind, out DateTime inicio))
+        {
+            var tiempoTranscurrido = DateTime.Now - inicio;
+            string tiempoFormateado = tiempoTranscurrido.ToString(@"hh\:mm\:ss");
+            HttpContext.Session.SetString("tiempoFinal", tiempoFormateado);
+            ViewBag.cronometro = tiempoFormateado;
+        }
+        else
+        {
+            HttpContext.Session.SetString("tiempoFinal", "00:00:00");
+            ViewBag.cronometro = TimeSpan.Zero;
+        }
         return View(palabraSala5);
     }
     public IActionResult Sala()
