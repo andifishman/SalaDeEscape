@@ -15,8 +15,12 @@ public class Salas{
     
     [JsonProperty]
     public string libertad;
-        [JsonProperty]
+    [JsonProperty]
     public string libertadIngresada;
+    [JsonProperty]
+    public DateTime inicio;
+    [JsonProperty]
+    public DateTime final;
     public Salas(){
         llaveSala1=false;
         luzSala2=false;
@@ -25,6 +29,8 @@ public class Salas{
         palabraIngresada="";
         libertad = "libertad";
         libertadIngresada = "";
+        final = DateTime.MinValue;
+        inicio = DateTime.Now;
     }
     public string mismoNum(){
         string palabra= "Sala3";
@@ -60,13 +66,18 @@ public class Salas{
     public void palabra2(string palabraNueva){
         libertadIngresada=palabraNueva;
     }
-    public string mismaPalabra2()
-     {
-        string palabra = "Sala5parte2";
-        if(libertadIngresada==libertad)
+public string mismaPalabra2()
+{
+    string palabra = "Sala5parte2";
+    if(libertadIngresada == libertad)
+    {
+        if (final == DateTime.MinValue)
         {
-            palabra = "Ganar";
+            final = DateTime.Now;
         }
-        return palabra;
+        palabra = "Ganar";
     }
+    return palabra;
+}
+
 }   
